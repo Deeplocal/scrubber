@@ -78,7 +78,7 @@ Once you’re all put together, we’re ready to head to software.
 
 3. Note down your Client ID and your Client Secret (we’ll need those in a bit!)
 
-4. Click *edit settings,* then add http://<Your Raspberry Pi’s ip>:5000 to the redirect URIs. So if your Pi IP was 192.168.1.232, you'd enter http://192.168.1.232:5000 and hit add then save.![image-20200322165950194](/Users/taylortabb/Library/Application Support/typora-user-images/image-20200322165950194.png) 
+4. Click *edit settings,* then add http://<Your Raspberry Pi’s ip>:5000 to the redirect URIs. So if your Pi IP was 192.168.1.232, you'd enter http://192.168.1.232:5000 and hit add then save.
 
 5. SSH into your Pi, and create a directory to house Scrubber in.
 
