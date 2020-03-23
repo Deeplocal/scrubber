@@ -103,7 +103,7 @@ Once you’re all put together, we’re ready to head to software!
 
 5. Ensure you're in your Projects folder, and clone this repository
 
-   `git clone....`
+   `git clone https://github.com/Deeplocal/scrubber.git`
 
 6. Install Node and NPM (we're using version 10.15.2, but any recent version should be fine)
 
