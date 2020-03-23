@@ -16,19 +16,19 @@ Scrubber is your handwashing soundtrack — 20 seconds of music selected right f
 
 - Pump-triggered music that times your hand washing 
 - Simple parts that you can adjust for whatever soap dispenser you use
-- ... third thing
+- Spotify integration to play your favorite jams 
 
 **System Overview:**
 
 ![arch](docs/arch.png)
 
-Scrubber uses Spotify's API wrapped in a custom Node script. The script authenticates with Spotify, downloads and proccesses tracks, then plays audio through the speaker bonnet using ALSA— That may sound a little complex, but we've written these steps  and the code in this repo so anyone can follow along.
+Scrubber uses Spotify's API wrapped in a custom Node script. The script authenticates with Spotify, downloads and proccesses tracks, then plays audio through the speaker bonnet using ALSA. That may sound a little complex, but we've written these steps  and the code in this repo so anyone can follow along.
 
 ## What You'll Need
 
 ![Image of a workspace, including laptop soap dispensers, and assorted electrical part](docs/workspace.png)
 
-Before you get started, you should have some basic knowledge of command line linux and soldering. You'll also need the parts and tools listed below.  repo contains all the code and documentation you'll need to get your Scrubber up and running.
+Before you get started, you should have some basic knowledge of command line linux and soldering. You'll also need the parts and tools listed below. This repo contains all the code and documentation you'll need to get your Scrubber up and running.
 
 ### Electrical Parts
 
@@ -38,7 +38,7 @@ Before you get started, you should have some basic knowledge of command line lin
 - A few inches of copper tape
 - Battery pack (optional)
 
-Most of these parts can be swapped for what you have access to— the speaker bonnet can be replaced with a similar audio pHat or AIY hat, and the copper tape can even be replaced with aluminum foil and super glue.
+Most of these parts can be swapped for what you have access to — the speaker bonnet can be replaced with a similar audio pHat or AIY hat, and the copper tape can even be replaced with aluminum foil and super glue.
 
 ### Tools
 
@@ -47,11 +47,11 @@ Most of these parts can be swapped for what you have access to— the speaker bo
 - Soldering Iron
 - Wire cutters
 - Wire strippers
-- Tools to modify your soap dispenser (scissors, drill, etc,)
+- Tools to modify your soap dispenser (scissors, drill, etc.)
 
 ## Assembly
 
-Let's get down to it— start by connecting your Pi to your wireless network, if you don’t know how, here’s a great guide (link). Make sure you can SSH into your pi and can find you Pi’s local IP address.
+Let's get down to it— start by connecting your Pi to your wireless network. If you don’t know how, here’s a great guide (link). Make sure you can SSH into your Pi and can find you Pi’s local IP address.
 
 ### Hardware
 
@@ -66,15 +66,15 @@ Let's get down to it— start by connecting your Pi to your wireless network, i
    ![Untitled Sketch_bb6](docs/assem.png)
 
 
-4. [Optional] Attach a battery pack— we did this but you definitely don’t need to. 
+4. [Optional] Attach a battery pack — we did this but you definitely don’t need to. 
 
-Once you’re all put together, we’re ready to head to software!
+Once you’re all put together, we’re ready to head to software.
 
 ### Software
 
 1. On your computer (not the Pi), head to Spotify [dashboard](http://link). 
 
-2. Click *Create an app*, call it *Scrubber,* and set the description to *Scrubber*. Select “Speaker” on the checklist, and then click next. Assuming you're using this for a non-commerical application, click non-commerical, then read the tems and conditions, check the boxes, and hit submit. You’ll now be sent to your Scrubber app's dashboard page.
+2. Click *Create an app*, call it *Scrubber,* and set the description to *Scrubber*. Select “Speaker” on the checklist, and then click next. Assuming you're using this for a non-commerical application, click non-commerical, then read the terms and conditions, check the boxes, and hit submit. You’ll now be sent to your Scrubber app's dashboard page.
 
 3. Note down your Client ID and your Client Secret (we’ll need those in a bit!)
 
@@ -88,7 +88,7 @@ Once you’re all put together, we’re ready to head to software!
 
    `cd Projects` 
 
-7. Set up the Speaker Bonnet with Adafruit's installer— yup, you do actually have to run the script and reboot twice. 
+7. Set up the Speaker Bonnet with Adafruit's installer – yup, you do actually have to run the script and reboot twice. 
 
    1. `curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash` 
    2. `sudo reboot now ` 
@@ -115,7 +115,7 @@ Once you’re all put together, we’re ready to head to software!
 
    `cd scrubber` 
 
-11. install all the relevant packages (this may take a while, but don't worry— consider washing your hands while you pass the time)
+11. Install all the relevant packages (this may take a while, but don't worry. Consider washing your hands while you pass the time)
 
     `npm i` 
 
@@ -133,7 +133,7 @@ Once you’re all put together, we’re ready to head to software!
 
     #### Running on Boot
 
-    After we've run the script for the first time, we can optionally set the script to run on boot— this means you don't have to SSH into Scrubber everytime you power up. 
+    After we've run the script for the first time, we can optionally set the script to run on boot. This means you don't have to SSH into Scrubber everytime you power up. 
 
     Edit the file `/etc/rc.local` 
 
@@ -141,16 +141,16 @@ Once you’re all put together, we’re ready to head to software!
     sudo nano /etc/rc.local
     ```
 
-    Add this line: `cd /home/pi/Projects/scrubber && node index.js` just above the `exit 0` at the end of the file. Then save the file and close it. And reboot your pi with `sudo reboot now`. Give it a few minutes to boot up, then test your configurtation by touching PIN5 and Ground wire! Enjoy those 20 seconds of music!
+    Add this line: `cd /home/pi/Projects/scrubber && node index.js` just above the `exit 0` at the end of the file. Then save the file and close it. And reboot your pi with `sudo reboot now`. Give it a few minutes to boot up, then test your configurtation by touching PIN5 and Ground wire. Enjoy those 20 seconds of music!
 
 
 ##Putting it all together
 
-Now we're ready to put it all together— there’s a million different soap dispensers out there, so we’ll show you one simple way to trigger your music that can be adapted to almost any type of dispenser. We want the pump to trigger the audio so we’ll be using copper tape to make the pump act just like a button.
+Now we're ready to put it all together— there’s a million different soap dispensers out there, so we’ll show you one simple way to trigger your music that can be adapted to almost any type of dispenser. We want the pump to trigger the audio, so we’ll be using copper tape to make the pump act just like a button.
 
-1. Grab your copper tape, and place two strips on the pump just such that they make contact when the bottle is pressed, check out ours in the .gif below. No copper tape? No problem— you can use glue and aluminum foil to achieve a similar effect.
+1. Grab your copper tape, and place two strips on the pump just such that they make contact when the bottle is pressed. Check out ours in the .gif below. No copper tape? No problem. You can use glue and aluminum foil to achieve a similar effect.
 
-2. Gently solder those ground and Pin5 wires to the copper tape— now, when the two copper strips make contact, the Pi will perceive a button press.
+2. Gently solder those ground and Pin5 wires to the copper tape. Now, when the two copper strips make contact, the Pi will perceive a button press.
 
    ![solder](docs/solder.gif)
 
@@ -158,6 +158,6 @@ And that’s it! You’ve got your very own Scrubber! 🧽 Smash that pump for 2
 
 ## Notes
 
-Scrubber was concepted, designed, build, and launched during the week of 3/16/20. This project presented new and interesting challegnes due to Deeplocal staff working from home. Part of this project was an exploration of remote creative collaboration for physical projects— Scrubber was fabricated in home makerspaces across Pittsburgh, with remote support from our creative and engineering teams. 
+Scrubber was concepted, designed, built, and launched during the week of 3/16/20. This project presented new and interesting challenges due to Deeplocal staff working from home. Part of this project was an exploration of remote creative collaboration for physical projects. Scrubber was fabricated in home makerspaces across Pittsburgh, with remote support from our creative and engineering teams. 
 
 The team behind scrubber includes Adnan Aga (Creative/Software), Taylor Tabb (Creative/Hardware), Caroline Fisher (Creative), Colin Miller (Creative/Design), Erin Pridemore (Design), and Matthew Pegula (Creative).
