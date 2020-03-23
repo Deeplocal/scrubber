@@ -51,7 +51,7 @@ Most of these parts can be swapped for what you have access to — the speaker b
 
 ## Assembly
 
-Let's get down to it— start by connecting your Pi to your wireless network. If you don’t know how, here’s a great guide (link). Make sure you can SSH into your Pi and can find you Pi’s local IP address.
+Let's get down to it— start by flashing a recent version of Raspbian and connecting your Pi to your wireless network. If you don’t know how, [here’s](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) a great guide. Make sure you can SSH into your Pi and can find you Pi’s local IP address.
 
 ### Hardware
 
@@ -72,7 +72,7 @@ Once you’re all put together, we’re ready to head to software.
 
 ### Software
 
-1. On your computer (not the Pi), head to Spotify [dashboard](http://link). 
+1. On your computer (not the Pi), head to Spotify [dashboard](https://developer.spotify.com/dashboard). 
 
 2. Click *Create an app*, call it *Scrubber,* and set the description to *Scrubber*. Select “Speaker” on the checklist, and then click next. Assuming you're using this for a non-commerical application, click non-commerical, then read the terms and conditions, check the boxes, and hit submit. You’ll now be sent to your Scrubber app's dashboard page.
 
