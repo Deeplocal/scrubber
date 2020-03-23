@@ -1,6 +1,6 @@
 # Scrubber!
 
-[Rendering]
+![headline](docs/headline.png)
 
 Social distancing at home but wishing you were getting down at the club? Tired of the 20 seconds of lathering feelings like the longest 20 seconds of your life? Looking for a project to do in #quarentine? No worries— Scrubber's got you covered!
 
