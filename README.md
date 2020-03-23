@@ -157,7 +157,7 @@ Now it’s time to put it all together— there’s a million different soap dis
 
 2. Gently solder those ground and pin __ wires to the copper tape— now, when the two copper strips make contact, the Pi will perceive a button press.
 
-   
+   ![solder](docs/solder.gif)
 
 And that’s it! You’ve got your very own Scrubber! 🧽 Smash that pump for 20 seconds of hand washing dance party energy.
 
