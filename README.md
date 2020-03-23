@@ -162,4 +162,4 @@ Scrubber was concepted, designed, built, and launched during the week of 3/16/20
 
 While we've attempted to use parts many may already have on hand, if you do find yourself ordering parts, please be mindful of the increased demands many suppliers and delivery services currently have.
 
-The team behind scrubber includes Adnan Aga (Creative/Software), Taylor Tabb (Creative/Hardware), Caroline Fisher (Creative), Colin Miller (Creative/Design), Erin Pridemore (Design), and Matthew Pegula (Creative.
+The team behind scrubber includes Adnan Aga (Creative/Software), Taylor Tabb (Creative/Hardware), Caroline Fisher (Creative), Colin Miller (Creative/Design), Erin Pridemore (Design), and Matthew Pegula (Creative).
