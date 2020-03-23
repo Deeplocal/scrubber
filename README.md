@@ -18,19 +18,17 @@ Scrubber is your handwashing soundtrack— 20 seconds of music selected right fr
 - Simple parts that you adjust for whatever soap dispner you use
 - ... third thing
 
-## System Overview
+**System Overview:**
 
 ![arch](docs/arch.png)
 
-Scrubber uses Spotify's API wrapped in a custom Node script. The script authenticates with Spotify, downloads and proccesses tracks, then plays audio through the speaker bonnet using ALSA— That may sound a little complex, but we've written these steps so anyone can follow along.
-
-This repo contains all the code and documentation you'll need to get your Scrubber up and running.
+Scrubber uses Spotify's API wrapped in a custom Node script. The script authenticates with Spotify, downloads and proccesses tracks, then plays audio through the speaker bonnet using ALSA— That may sound a little complex, but we've written these steps  and the code in this repo so anyone can follow along.
 
 ## What You'll Need
 
 ![Image of a workspace, including laptop soap dispensers, and assorted electrical part](docs/workspace.png)
 
-Before you get started, you should have some basic knowledge of command line linux and soldering. You'll also need the parts and tools listed below.
+Before you get started, you should have some basic knowledge of command line linux and soldering. You'll also need the parts and tools listed below.  repo contains all the code and documentation you'll need to get your Scrubber up and running.
 
 ### Electrical Parts
 
