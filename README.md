@@ -18,6 +18,8 @@ Scrubber is your handwashing soundtrack— 20 seconds of music selected right fr
 - Simple parts that you adjust for whatever soap dispner you use
 - ... third thing
 
+**System Archtecture:![arch](docs/arch.png)**
+
 
 
 ## What You’ll Find
