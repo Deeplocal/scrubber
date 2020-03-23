@@ -18,16 +18,13 @@ Scrubber is your handwashing soundtrack— 20 seconds of music selected right fr
 - Simple parts that you adjust for whatever soap dispner you use
 - ... third thing
 
-**System Archtecture:![arch](docs/arch.png)**
+## System Overview
 
+![arch](docs/arch.png)
 
+Scrubber uses Spotify's API wrapped in a custom Node script. The script authenticates with Spotify, downloads and proccesses tracks, then plays audio through the speaker bonnet using ALSA— That may sound a little complex, but we've written these steps so anyone can follow along.
 
-## What You’ll Find
-
-- software/
-  - rpi/
-
-This repo contains all the code and documentation you'll need to get your Scrubber up and running!
+This repo contains all the code and documentation you'll need to get your Scrubber up and running.
 
 ## What You'll Need
 
@@ -62,23 +59,23 @@ Let's get down to it— start by connecting your Pi to your wireless network, i
 
 ![Untitled Sketch_bb4](docs/parts.png)
 
-1. Power down your Pi
+1. Power down your Pi.
 
-2. Press the Adafruit Sound Bonnet onto the Pi's headers
+2. Press the Adafruit Sound Bonnet onto the Pi's headers.
 
-3. Locate Pin 5 and ground **on the sound bonnet** and solder ~6in of your thin wire to each
+3. Locate Pin 5 and ground **on the sound bonnet** and solder ~6in of your thin wire to each.
 
 4. [Optional] Attach a battery pack— we did this but you definitely don’t need to. 
 
    ![Untitled Sketch_bb6](docs/assem.png)
 
-Once you’re all put together, We’re ready to head to software!
+Once you’re all put together, we’re ready to head to software!
 
 ### Software
 
 1. On your computer (not the Pi), head to Spotify [dashboard](http://link). 
 
-2. Click *Create an app* and call it *Scrubber,* and set the description to scrubber. Select “Speaker” on the checklist, and then click next— assuming you're using this for a non-commerical application, click non-commerical, then read the tems and conditions, check the boxes, and hit submit. You’ll now be on a page with see you Client ID
+2. Click *Create an app*, call it *Scrubber,* and set the description to *Scrubber*. Select “Speaker” on the checklist, and then click next. Assuming you're using this for a non-commerical application, click non-commerical, then read the tems and conditions, check the boxes, and hit submit. You’ll now be sent to your Scrubber app's dashboard page.
 
 3. Note down your Client ID and your Client Secret (we’ll need those in a bit!)
 
@@ -123,7 +120,7 @@ Once you’re all put together, We’re ready to head to software!
 
     `npm i` 
 
-12. Start the script by typing `node index`, then wait for instructions to appear in your command line to link your Spotify account
+12. Start the script by typing `node index`, then wait for the below instructions to appear in your command line to link your Spotify account:
 
     I. Paste your Client ID from earlier, and hit enter
 
@@ -133,7 +130,7 @@ Once you’re all put together, We’re ready to head to software!
 
     IV. Copy the code from your browser and enter it into your SSH session when requested— then wait (several minutes) for the download to complete— you'll hear a 20 second clip play when it's all been proccessed.
 
-13. Test the system by touching PIN5 and Ground wire! You should hear 20 seconds of audio
+13. Test the system by touching PIN5 and Ground wire! You should hear 20 seconds of audio!
 
     #### Running on Boot
 
@@ -145,17 +142,16 @@ Once you’re all put together, We’re ready to head to software!
     sudo nano /etc/rc.local
     ```
 
-    Add this line: `cd /home/pi/Projects/scrubber && node index.js` just above the `exit 0` at the end of the file. Then save the file and close it. And reboot your pi with `sudo reboot now`
+    Add this line: `cd /home/pi/Projects/scrubber && node index.js` just above the `exit 0` at the end of the file. Then save the file and close it. And reboot your pi with `sudo reboot now`. Give it a few minutes to boot up, then test your configurtation by touching PIN5 and Ground wire! Enjoy those 20 seconds of music!
 
-    
 
 ##Putting it all together
 
-Now it’s time to put it all together— there’s a million different soap dispensers out there, so we’ll show you one simple way to trigger your music that can be adapted to almost any type of dispenser. We want the pump to trigger the audio so we’ll be using copper tape (or glue and aluminum foil) to make the pump act just like a button.
+Now we're ready to put it all together— there’s a million different soap dispensers out there, so we’ll show you one simple way to trigger your music that can be adapted to almost any type of dispenser. We want the pump to trigger the audio so we’ll be using copper tape to make the pump act just like a button.
 
-1. Grab your copper tape, and place two strips on the pump just such that they make contact when the bottle is pressed, check out ours in the images.
+1. Grab your copper tape, and place two strips on the pump just such that they make contact when the bottle is pressed, check out ours in the .gif below. No copper tape? No problem— you can use glue and aluminum foil to achieve a similar effect.
 
-2. Gently solder those ground and pin __ wires to the copper tape— now, when the two copper strips make contact, the Pi will perceive a button press.
+2. Gently solder those ground and Pin5 wires to the copper tape— now, when the two copper strips make contact, the Pi will perceive a button press.
 
    ![solder](docs/solder.gif)
 
