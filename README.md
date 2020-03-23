@@ -29,7 +29,7 @@ This repo contains all the code and documentation you'll need to get your Scrubb
 
 ## What You'll Need
 
-![Image of a workspace, including laptop soap dispensers, and assorted electrical part](https://raw.githubusercontent.com/Deeplocal/scrubber/master/img/workspace.jpeg?token=AF4LUDGXBEDYE6QSSV3YSMK6QFDAM)
+![Image of a workspace, including laptop soap dispensers, and assorted electrical part](docs/workspace.jpeg)
 
 Before you get started, you should have some basic knowledge of command line linux and soldering. You'll also need the parts and tools listed below.
 
@@ -60,7 +60,7 @@ Let's get down to it— start by connecting your Pi to your wireless network, i
 
 ### Hardware
 
-![Untitled Sketch_bb4](/Users/taylortabb/Downloads/Untitled Sketch_bb4.png)
+![Untitled Sketch_bb4](docs/parts.png)
 
 1. Power down your Pi
 
@@ -70,7 +70,7 @@ Let's get down to it— start by connecting your Pi to your wireless network, i
 
 4. [Optional] Attach a battery pack— we did this but you definitely don’t need to. 
 
-   ![Untitled Sketch_bb6](/Users/taylortabb/Downloads/Untitled Sketch_bb6.png)
+   ![Untitled Sketch_bb6](docs/assem.png)
 
 Once you’re all put together, We’re ready to head to software!
 
