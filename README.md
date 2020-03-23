@@ -144,7 +144,7 @@ Once you’re all put together, we’re ready to head to software.
     Add this line: `cd /home/pi/Projects/scrubber && node index.js` just above the `exit 0` at the end of the file. Then save the file and close it. And reboot your pi with `sudo reboot now`. Give it a few minutes to boot up, then test your configurtation by touching PIN5 and Ground wire. Enjoy those 20 seconds of music!
 
 
-##Putting it all together
+## Putting it all together
 
 Now we're ready to put it all together— there’s a million different soap dispensers out there, so we’ll show you one simple way to trigger your music that can be adapted to almost any type of dispenser. We want the pump to trigger the audio, so we’ll be using copper tape to make the pump act just like a button.
 
