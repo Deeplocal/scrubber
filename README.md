@@ -45,7 +45,7 @@ Most of these parts can be swapped for what you have access to— the speaker bo
 ### Tools
 
 - Tiny screwdrivers
-- X-ACTO knife
+- X-ACTO knife or scissors
 - Soldering Iron
 - Wire cutters
 - Wire strippers
@@ -65,9 +65,10 @@ Let's get down to it— start by connecting your Pi to your wireless network, i
 
 3. Locate Pin 5 and ground **on the sound bonnet** and solder ~6in of your thin wire to each.
 
-4. [Optional] Attach a battery pack— we did this but you definitely don’t need to. 
-
    ![Untitled Sketch_bb6](docs/assem.png)
+
+
+4. [Optional] Attach a battery pack— we did this but you definitely don’t need to. 
 
 Once you’re all put together, we’re ready to head to software!
 
