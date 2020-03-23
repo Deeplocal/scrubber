@@ -154,7 +154,10 @@ Once you’re all put together, We’re ready to head to software!
 Now it’s time to put it all together— there’s a million different soap dispensers out there, so we’ll show you one simple way to trigger your music that can be adapted to almost any type of dispenser. We want the pump to trigger the audio so we’ll be using copper tape (or glue and aluminum foil) to make the pump act just like a button.
 
 1. Grab your copper tape, and place two strips on the pump just such that they make contact when the bottle is pressed, check out ours in the images.
+
 2. Gently solder those ground and pin __ wires to the copper tape— now, when the two copper strips make contact, the Pi will perceive a button press.
+
+   
 
 And that’s it! You’ve got your very own Scrubber! 🧽 Smash that pump for 20 seconds of hand washing dance party energy.
 
