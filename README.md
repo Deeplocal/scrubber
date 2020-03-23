@@ -28,7 +28,7 @@ This repo contains all the code and documentation you'll need to get your Scrubb
 
 ## What You'll Need
 
-![Image of a workspace, including laptop soap dispensers, and assorted electrical part](docs/workspace.jpeg)
+![Image of a workspace, including laptop soap dispensers, and assorted electrical part](docs/workspace.png)
 
 Before you get started, you should have some basic knowledge of command line linux and soldering. You'll also need the parts and tools listed below.
 
