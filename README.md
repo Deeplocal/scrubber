@@ -160,4 +160,4 @@ And that’s it! You’ve got your very own Scrubber! 🧽 Smash that pump for 2
 
 Scrubber was concepted, designed, built, and launched during the week of 3/16/20. This project presented new and interesting challenges due to Deeplocal staff working from home. Part of this project was an exploration of remote creative collaboration for physical projects. Scrubber was fabricated in home makerspaces across Pittsburgh, with remote support from our creative and engineering teams. 
 
-The team behind scrubber includes Adnan Aga (Creative/Software), Taylor Tabb (Creative/Hardware), Caroline Fisher (Creative), Colin Miller (Creative/Design), Erin Pridemore (Design), and Matthew Pegula (Creative).
+The team behind scrubber includes Adnan Aga (Creative/Software), Taylor Tabb (Creative/Hardware), Caroline Fisher (Creative), Colin Miller (Creative/Design), Erin Pridemore (Design), and Matthew Pegula (Creative.
