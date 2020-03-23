@@ -160,8 +160,6 @@ And that’s it! You’ve got your very own Scrubber! 🧽 Smash that pump for 2
 
 ## Notes
 
-Scrubber was concepted, designed, build, and launched during the week of 3/16/20. This project presented new and interesting challegnes due to Deeplocal staff working from home. Part of this project was an exploration of remote creative collaboration for physical projects— Scrubber was fabricated in home makerspaces, with remote support from our creative and engineering teams. 
+Scrubber was concepted, designed, build, and launched during the week of 3/16/20. This project presented new and interesting challegnes due to Deeplocal staff working from home. Part of this project was an exploration of remote creative collaboration for physical projects— Scrubber was fabricated in home makerspaces across Pittsburgh, with remote support from our creative and engineering teams. 
 
 The team behind scrubber includes Adnan Aga, Taylor Tabb, Caroline Fisher, Colin Miller, Erin Pridemore, and Matthew Pegula.
-
-This project is licensed under the MIT License.
