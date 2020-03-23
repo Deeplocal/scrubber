@@ -4,7 +4,7 @@
 
 Social distancing at home but wishing you were getting down at the club? Tired of the 20 seconds of lathering feelings like the longest 20 seconds of your life? Looking for a project to do in #quarentine? No worries— Scrubber's got you covered!
 
-Scrubber is your handwashing soundtrack— 20 seconds of music selected right from your most played Spotify tracks of the week. All you need is a soap dispenser, a Spotify account, and the electronic parts listed below. Check out more of this project at Deeplocal.com/scrubber, and keep reading to learn how to build your own.
+Scrubber is your handwashing soundtrack— 20 seconds of music selected right from your most played Spotify tracks of the week. All you need is a soap dispenser, a Spotify account, and the electronic parts listed below. Check out more of this project at [Deeplocal.com/Scrubber](deeplocal.com/scrubber), and keep reading to learn how to build your own.
 
 ## Project Information
 
@@ -37,13 +37,11 @@ Before you get started, you should have some basic knowledge of command line lin
 
 - Raspberry Pi Zero W
 - Adafruit Speaker Bonnet & Speaker
-- ~1-2ft of thin wire (aroudn 22awg)
+- ~1-2ft of thin wire (around 22 awg)
 - A few inches of copper tape
 - Battery pack (optional)
 
-Most of these parts can we swapped for what you have access to— the speaker bonnet can be replaced with a similar audio pHat or AIY hat, 
-
-and the copper tape can be replaced with aluminum foil and super glue.
+Most of these parts can be swapped for what you have access to— the speaker bonnet can be replaced with a similar audio pHat or AIY hat, and the copper tape can even be replaced with aluminum foil and super glue.
 
 ### Tools
 
@@ -165,4 +163,4 @@ And that’s it! You’ve got your very own Scrubber! 🧽 Smash that pump for 2
 
 Scrubber was concepted, designed, build, and launched during the week of 3/16/20. This project presented new and interesting challegnes due to Deeplocal staff working from home. Part of this project was an exploration of remote creative collaboration for physical projects— Scrubber was fabricated in home makerspaces across Pittsburgh, with remote support from our creative and engineering teams. 
 
-The team behind scrubber includes Adnan Aga, Taylor Tabb, Caroline Fisher, Colin Miller, Erin Pridemore, and Matthew Pegula.
+The team behind scrubber includes Adnan Aga (Creative/Software), Taylor Tabb (Creative/Hardware), Caroline Fisher (Creative), Colin Miller (Creative/Design), Erin Pridemore (Design), and Matthew Pegula (Creative).
