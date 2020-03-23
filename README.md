@@ -1,10 +1,10 @@
-# Scrubber!
+# Scrubber
 
 ![headline](docs/headline.png)
 
-Social distancing at home but wishing you were getting down at the club? Tired of the 20 seconds of lathering feelings like the longest 20 seconds of your life? Looking for a project to do in #quarentine? No worries— Scrubber's got you covered!
+Social distancing at home but wishing you were getting down at the club? Tired of the 20 seconds of lathering feeling like the longest 20 seconds of your life? Looking for a DIY project to do in quarantine? Scrubber's got you covered!
 
-Scrubber is your handwashing soundtrack— 20 seconds of music selected right from your most played Spotify tracks of the week. All you need is a soap dispenser, a Spotify account, and the electronic parts listed below. Check out more of this project at [Deeplocal.com/Scrubber](www.deeplocal.com/scrubber), and keep reading to learn how to build your own.
+Scrubber is your handwashing soundtrack — 20 seconds of music selected right from your most played Spotify tracks of the week. All you need is a soap dispenser, a Spotify account, and the electronic parts listed below. Check out more of this project at [Deeplocal.com/Scrubber](www.deeplocal.com/scrubber), and keep reading to learn how to build your own.
 
 ## Project Information
 
@@ -15,7 +15,7 @@ Scrubber is your handwashing soundtrack— 20 seconds of music selected right fr
 **Features:**
 
 - Pump-triggered music that times your hand washing 
-- Simple parts that you adjust for whatever soap dispner you use
+- Simple parts that you can adjust for whatever soap dispenser you use
 - ... third thing
 
 **System Overview:**
