@@ -51,7 +51,7 @@ Most of these parts can be swapped for what you have access to — the speaker b
 
 ## Assembly
 
-Let's get down to it— start by flashing a recent version of Raspbian and connecting your Pi to your wireless network. If you don’t know how, [here’s](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) a great guide. Make sure you can SSH into your Pi and can find you Pi’s local IP address.
+Let's get down to it. Start by flashing a recent version of Raspbian and connecting your Pi to your wireless network. If you don’t know how, [here’s](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) a great guide. Make sure you can SSH into your Pi and can find you Pi’s local IP address.
 
 ### Hardware
 
@@ -129,7 +129,7 @@ Once you’re all put together, we’re ready to head to software.
 
     IV. Copy the code from your browser and enter it into your SSH session when requested— then wait (several minutes) for the download to complete— you'll hear a 20 second clip play when it's all been proccessed.
 
-13. Test the system by touching PIN5 and Ground wire! You should hear 20 seconds of audio!
+13. Test the system by touching PIN5 and Ground wire. You should hear 20 seconds of audio!
 
     #### Running on Boot
 
@@ -146,7 +146,7 @@ Once you’re all put together, we’re ready to head to software.
 
 ## Putting it all together
 
-Now we're ready to put it all together— there’s a million different soap dispensers out there, so we’ll show you one simple way to trigger your music that can be adapted to almost any type of dispenser. We want the pump to trigger the audio, so we’ll be using copper tape to make the pump act just like a button.
+Now we're ready to put it all together. There’s a million different soap dispensers out there, so we’ll show you one simple way to trigger your music that can be adapted to almost any type of dispenser. We want the pump to trigger the audio, so we’ll be using copper tape to make the pump act just like a button.
 
 1. Grab your copper tape, and place two strips on the pump just such that they make contact when the bottle is pressed. Check out ours in the .gif below. No copper tape? No problem. You can use glue and aluminum foil to achieve a similar effect.
 
