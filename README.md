@@ -88,7 +88,7 @@ Once you’re all put together, we’re ready to head to software.
 
    `cd Projects` 
 
-7. Set up the Speaker Bonnet with Adafruit's installer – yup, you do actually have to run the script and reboot twice. 
+7. Set up the Speaker Bonnet with Adafruit's installer – **yup, you do actually have to run the script and reboot twice.** 
 
    1. `curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash` 
    2. `sudo reboot now ` 
