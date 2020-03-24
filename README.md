@@ -76,7 +76,7 @@ Once you’re all put together, we’re ready to head to software.
 
 2. Click *Create an app*, call it *Scrubber,* and set the description to *Scrubber*. Select “Speaker” on the checklist, and then click next. Assuming you're using this for a non-commerical application, click non-commerical, then read the terms and conditions, check the boxes, and hit submit. You’ll now be sent to your Scrubber app's dashboard page.
 
-3. Note down your Client ID and your Client Secret (we’ll need those in a bit!)
+3. Note down your Client ID and your Client Secret (we’ll need those in a bit!).
 
 4. Click *edit settings,* then add http://<Your Raspberry Pi’s ip>:5000 to the redirect URIs. So if your Pi IP was 192.168.1.232, you'd enter http://192.168.1.232:5000 and hit add then save.
 
@@ -84,7 +84,7 @@ Once you’re all put together, we’re ready to head to software.
 
    `mkdir Projects`
 
-6. Navigate into the directory  
+6. Navigate into the directory.  
 
    `cd Projects` 
 
@@ -95,37 +95,37 @@ Once you’re all put together, we’re ready to head to software.
    3. `curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash` 
    4. `sudo reboot now ` 
 
-4. Test out the speaker bonnet 
+4. Test out the speaker bonnet.
 
    `speaker-test -c2 --test=wav -w /usr/share/sounds/alsa/Front_Center.wav`
 
-   and hit ctrl+c to exit. If you don't hear audio, check out Adfruit's [documentation](https://learn.adafruit.com/adafruit-speaker-bonnet-for-raspberry-pi/raspberry-pi-usage) for troubleshooting
+   and hit ctrl+c to exit. If you don't hear audio, check out Adfruit's [documentation](https://learn.adafruit.com/adafruit-speaker-bonnet-for-raspberry-pi/raspberry-pi-usage) for troubleshooting.
 
-5. Ensure you're in your Projects folder, and clone this repository
+5. Ensure you're in your Projects folder, and clone this repository.
 
    `git clone https://github.com/Deeplocal/scrubber.git`
 
-6. Install Node and NPM (we're using version 10.15.2, but any recent version should be fine)
+6. Install Node and NPM (we're using version 10.15.2, but any recent version should be fine).
 
    `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash` 
 
    `nvm install node` 
 
-1. Enter the scrubber directory
+1. Enter the scrubber directory.
 
    `cd scrubber` 
 
-11. Install all the relevant packages (this may take a while, but don't worry. Consider washing your hands while you pass the time)
+11. Install all the relevant packages (this may take a while, but don't worry. Consider washing your hands while you pass the time).
 
     `npm i` 
 
 12. Start the script by typing `node index`, then wait for the below instructions to appear in your command line to link your Spotify account:
 
-    I. Paste your Client ID from earlier, and hit enter
+    I. Paste your Client ID from earlier, and hit enter.
 
-    II. Paste your Client Secret from earlier, and hit enter
+    II. Paste your Client Secret from earlier, and hit enter.
 
-    III. In your browser, go to http://<Your Raspberry Pi’s ip>:5000 and hit Log in with Spotify 
+    III. In your browser, go to http://<Your Raspberry Pi’s ip>:5000 and hit Log in with Spotify.
 
     IV. Copy the code from your browser and enter it into your SSH session when requested— then wait (several minutes) for the download to complete— you'll hear a 20 second clip play when it's all been proccessed.
 
