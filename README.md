@@ -99,7 +99,7 @@ Once you’re all put together, we’re ready to head to software.
 
    `speaker-test -c2 --test=wav -w /usr/share/sounds/alsa/Front_Center.wav`
 
-   and hit ctrl+c to exit. If you don't hear audio, check out Adfruit's [documentation](https://learn.adafruit.com/adafruit-speaker-bonnet-for-raspberry-pi/raspberry-pi-usage) for troubleshooting.
+   and hit ctrl+c to exit. If you don't hear audio, check out Adafruit's [documentation](https://learn.adafruit.com/adafruit-speaker-bonnet-for-raspberry-pi/raspberry-pi-usage) for troubleshooting.
 
 5. Ensure you're in your Projects folder, and clone this repository.
 
