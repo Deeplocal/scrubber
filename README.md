@@ -117,9 +117,9 @@ Once you’re all put together, we’re ready to head to software.
 
 12. Install the ffmpeg packages.
 
-   `npm i ffmpeg`
+    `npm i ffmpeg`
    
-   `npm i fluent-ffmpeg` 
+    `npm i fluent-ffmpeg` 
    
 11. Install all the relevant packages (this may take a while, but don't worry. Consider washing your hands while you pass the time).
 
