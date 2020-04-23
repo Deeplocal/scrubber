@@ -115,11 +115,17 @@ Once you’re all put together, we’re ready to head to software.
 
    `cd scrubber` 
 
+12. Install the ffmpeg packages.
+
+   `npm i ffmpeg`
+   
+   `npm i fluent-ffmpeg` 
+   
 11. Install all the relevant packages (this may take a while, but don't worry. Consider washing your hands while you pass the time).
 
     `npm i` 
 
-12. Start the script by typing `node index`, then wait for the below instructions to appear in your command line to link your Spotify account:
+13. Start the script by typing `node index`, then wait for the below instructions to appear in your command line to link your Spotify account:
 
     I. Paste your Client ID from earlier, and hit enter.
 
@@ -129,7 +135,7 @@ Once you’re all put together, we’re ready to head to software.
 
     IV. Copy the code from your browser and enter it into your SSH session when requested— then wait (several minutes) for the download to complete— you'll hear a 20 second clip play when it's all been proccessed.
 
-13. Test the system by touching PIN5 and Ground wire. You should hear 20 seconds of audio!
+14. Test the system by touching PIN5 and Ground wire. You should hear 20 seconds of audio!
 
     #### Running on Boot
 
